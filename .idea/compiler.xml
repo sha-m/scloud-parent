@@ -19,11 +19,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="scloud-client" options="-parameters" />
-      <module name="scloud-server" options="-parameters" />
+      <module name="scloud-client" options="" />
+      <module name="scloud-server" options="" />
       <module name="scloud-server01" options="-parameters" />
-      <module name="service-feign" options="-parameters" />
-      <module name="service-zuul" options="-parameters" />
+      <module name="service-feign" options="" />
+      <module name="service-zuul" options="" />
     </option>
   </component>
 </project>

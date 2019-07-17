@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
+// 注册到eureka
 @EnableEurekaClient
 @RestController
 public class ScloudClientApplication {

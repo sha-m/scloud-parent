@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
+//zuul默认和Ribbon结合实现了负载均衡的功能
 @EnableZuulProxy
 @EnableEurekaClient
 @EnableDiscoveryClient

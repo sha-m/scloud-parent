@@ -29,3 +29,7 @@ build/
 
 ### VS Code ###
 .vscode/
+service-feign/src/main/resources/static/
+service-feign/src/main/resources/templates/
+service-zuul/src/main/resources/static/
+service-zuul/src/main/resources/templates/

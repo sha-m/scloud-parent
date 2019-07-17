@@ -5,11 +5,14 @@ eureka:
   instance:
     hostname: localhost
   client:
+    # 注册到注册中心
     registerWithEureka: false
     fetchRegistry: false
+    # 注册到中心地址
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 spring:
   application:
+    # 服务名
     name: eurka-server

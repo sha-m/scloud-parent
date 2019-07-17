@@ -7,7 +7,7 @@ server:
 spring:
   application:
     name: service-feign
-#\u542F\u7528\u65AD\u8DEF\u5668
+# Feign是自带断路器的，需要在配置文件中配置打开它
 feign:
   hystrix:
     enabled: true

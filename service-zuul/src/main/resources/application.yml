@@ -8,10 +8,8 @@ spring:
   application:
     name: service-zuul
 zuul:
+  # 以/api-b/开头的请求都转发给service-feign服务；
   routes:
-    api-a:
-      path: /api-a/**
-      serviceId: service-ribbon
     api-b:
       path: /api-b/**
       serviceId: service-feign
