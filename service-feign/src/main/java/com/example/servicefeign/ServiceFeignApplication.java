@@ -9,6 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
+//Feign默认集成了Ribbon，并和Eureka结合，默认实现了负载均衡的效果。
 @EnableFeignClients
 public class ServiceFeignApplication {
 
