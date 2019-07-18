@@ -1,5 +1,5 @@
 server:
-  port: 8763
+  port: 8762
 
 spring:
   # 服务名
@@ -11,4 +11,12 @@ eureka:
     # 注册中心地址
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
 

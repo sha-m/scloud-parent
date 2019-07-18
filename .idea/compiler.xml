@@ -10,6 +10,8 @@
         <module name="scloud-client" />
         <module name="scloud-server" />
         <module name="service-feign" />
+        <module name="service-lucy" />
+        <module name="service-turbine" />
         <module name="service-zuul" />
       </profile>
     </annotationProcessing>
